@@ -1,0 +1,25 @@
+{
+    "description": "Processo seletivo Vista Software",
+	"name": "test/vista-software",
+	"type": "project",
+    "authors": [
+        {
+            "name": "Carlos Magno",
+            "email": "cmagnosoares@gmail.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"            
+        },
+        "files": ["src/config/config.php", "src/config/database.php", "src/config/routes.php", "src/library/query_builder.php", "src/library/vista_api_client.php"]
+    },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "require": {
+        "rmccue/requests": "^1.8"
+    }
+}
