@@ -14,3 +14,4 @@
 # Instalação
 - Rodar o composer install na raiz do projeto
 - rodar o sql para criar as estruturas do banco
+- Alterar os arquivos no diretório src/config para o seu ambiente
